@@ -9,6 +9,14 @@ var btn = document.querySelector('.btn')
 var end = document.querySelector('.ending')
 
 btn.addEventListener('click', () => {
+  if (btn.classList != 'btn-style') {
+    btn.classList.add('btn-style')
+    
+    setTimeout(function() {
+      btn.classList.remove('btn-style')
+    }, 100)
+  }
+  
   setInterval(count_down, 1000)
 })
 
