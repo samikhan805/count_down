@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+  font-family: 'Poppins', Sans-Serif;
+  /*font-family: 'DotGothic16', SSans-Serif*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /*background: url('Img/bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center; */
+  background: #b6b6b6;
+}
+.container {
+  width: 340px;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.input-sec {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  padding: 0.2rem;
+  justify-content: space-between;
+}
+.input {
+  width: 65%;
+  padding: 0.3rem;
+  outline: none;
+  border: 1px solid green;
+}
+.btn {
+  color: #fff;
+  background: green;
+  border: 1px solid green;
+  outline: none;
+  padding: 0.35rem;
+  font-weight: 600;
+}
+.content {
+  width: 95%;
+  margin: 1rem auto 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  background: ;
+}
+.day,
+.hour,
+.minute,
+.second {
+  width: 75px;
+  height: 55px;
+  background: #fff;
+  border: 2px solid green;
+  text-align: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.ending {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+  font-weight: 700;
+  margin-top: 2rem;
+}
