@@ -18,6 +18,7 @@ body {
   margin: 1.5rem auto;
   padding: 0.4rem;
   border: 2.5px solid green;
+  background: #fff;
 }
 .header {
   text-align: center;
@@ -39,10 +40,10 @@ body {
   justify-content: space-between;
 }
 .input {
-  width: 65%;
+  width: 60%;
   padding: 0.3rem;
   outline: none;
-  border: 1px solid green;
+  border: 1.5px solid green;
 }
 .btn {
   color: #fff;
@@ -51,6 +52,9 @@ body {
   outline: none;
   padding: 0.35rem;
   font-weight: 600;
+}
+.btn-style {
+  box-shadow: 1px 1px 20px rgba(17,215,17,1);
 }
 .content {
   width: 95%;
